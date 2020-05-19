@@ -1,0 +1,254 @@
+body{
+   font-family: 'Roboto', sans-serif;
+    margin: 0;
+   
+}
+/* aligning all contents */
+body>section{
+   margin: 4em 21em 0em 21em;
+   border: #dcdcde 1px solid;
+   padding: 2.3em 1.5em;
+   border-radius: 5px;
+}
+
+
+
+
+/* styling for form and image section */
+main{
+   display: flex;
+   justify-content: space-between;
+}
+
+ /* header styling */
+ header{
+    margin-left: 8px;
+ }
+header img{
+   width: 4.2em;
+   margin-bottom: 0em;
+}
+h1{
+   font-size: 22px;
+   margin: 0px;
+   color: #2e2930;
+}
+/* styling for image at right side */
+figure>img{
+   width:12em
+   
+}
+
+figure{
+  text-align: center;
+  margin: 1em 0em ; 
+  padding-right: 1.5em;
+ 
+}
+figcaption{
+   
+   font-size: 1em;
+   width: 14em;
+}
+/* form styling */
+/* changing pointers */
+ h1,form input, form p{
+   cursor: text;
+}
+a, #eye-icon, li, #languages{
+   cursor: pointer;
+}
+/* fieldset styling */
+fieldset{
+   border: none;
+   
+}
+/* form */
+form{
+   box-sizing: border-box;
+   width: 33em;
+   font-size: 12px;
+   margin-top: 2em;
+}
+/* inputfields */
+input{
+   position: relative;
+   height: 2em;
+   font-size: 14px;
+   outline: none;
+   background-color: rgba(255, 255, 255, 0.1);
+   border: solid 1px #dbdcde !important;
+   border-radius: 4px;
+   padding-left: 7px;
+   
+}
+
+/* alignment of alert messages */
+.alert p{
+   display: inline !important;
+}
+.alert{
+   display: block!important;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   /* color: white; */
+   padding-top: 0px;
+   
+}
+
+/* alignment of personal info and password field */
+.personal-info div , .password-confirm div{
+   display: inline-block;
+  
+}
+
+
+input[type=text],input[type=password]{
+  width: 10em;
+}
+
+#fn , #pass-word{
+   margin-right: 1em;
+ 
+}
+.right-inputfields{
+   margin-left: 9px;
+   
+   }
+/* div inside the fieldsets */
+/* labels */
+label{
+   color: #8d8988;
+   letter-spacing: 1px;
+   font-size: 13px;
+}
+
+.for-labels , .email{
+   position: relative;
+   
+}
+.for-labels>label {
+   position: absolute;
+  bottom: 10px;
+  left: 8px; 
+}
+#left-labels>label{
+   position: absolute;
+   left: 17px ; 
+   
+}
+.email>label{
+   position: absolute;
+  top:12px;
+  left: 17px; 
+
+}
+
+
+
+/* email input div */
+.email>input{
+   width: 21.2em;
+}
+
+/* eye-slash icon */
+#eye-icon{
+   font-size: 1.7em;
+   color: #5a5a5a;
+   margin-left: 6px;
+}
+/* line after password field */
+#password-para , .email>p{
+   margin-top: 5px;
+   font-size: 11px;
+}
+/* anchor tags in form */
+a{
+   text-decoration: none;
+}
+.email a, .submission>a{
+   
+   font-size: 1.3em;
+   font-weight:bolder ;
+   color: #1a73e9;
+  
+}
+/* submission section */
+.submission button{
+   border: none;
+   padding: 0.8em 2.4em;
+   background-color: #1a73e9;
+   font-size: 13px;
+   border-radius: 5px;
+   margin-left: 10em;
+   font-weight: bold;
+   letter-spacing: 1px;
+
+   
+}
+.submission button a{
+   color: white;
+}
+.submission{
+   margin-top: 2.5em;
+}
+
+
+/* styling on input fields on focusing */
+
+input:focus{
+   border: solid 1.5px #1a73e9 !important;
+   
+}
+input:focus+label,input:valid+label{
+   transform: translate(1px, -14px);
+   z-index: 1;
+   background-color: #ffffff;
+   padding: 2px;
+   color:  #1a73e9 !important;
+}
+input:valid+label{
+   color: #8d8988;
+    
+    
+}
+
+
+
+
+/* for username label */
+input[type=email]:focus+ label{
+   transform: translate(1px, -18px);
+   z-index: 1;
+   background-color: #ffffff;
+   padding: 2px;
+}
+
+
+
+/* for elements outside the form */
+ul{
+   list-style: none;
+   font-size: 13px;
+   display: flex;
+   color: #818a99;
+   
+}
+li{
+   padding: 4px 9px;
+
+}
+li:active{
+   background-color: #b6b5b5;
+}
+footer{
+   display: flex;
+   justify-content: space-between;
+   margin: auto 20.7em;
+}
+
+/* languages dropdown */
+#languages{
+   border: none;
+   color: #6c736c;
+}
